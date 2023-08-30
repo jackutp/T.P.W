@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <form>
+        <label>Nombre</label><br>
+        <label>Direccion</label><br>
+        <label>Telefono</label><br>
+    </form>
+
+    <form>
+        <label>Ingresar nombre: </label>
+        <input type="text" name="nombre">
+    </form>
+    <form>
+        <label>Tus actividades preferidas son :</label>
+        <p></p>
+        <input type="checkbox" name="peliculas">peliculas<br>
+        <input type="checkbox" name="deportes">deportes<br>
+        <input type="checkbox" name="videojuego">Video Juegos<br>
+        <p></p>
+    </form>
+    
+    <form>
+        <label>Condicion civil: </label>
+        <p></p>
+        <input type="radio" name="civil">Soltero<br>
+        <input type="radio" name="civil">Casado<br>
+        <input type="radio" name="civil">Viudo<br>
+        <input type="radio" name="civil">Divorciado<br>
+    </form>
+
+    <form>
+        <label>BOTONES</label>
+        <p></p>
+        <input type="button" name="Saludo" value="Hola, este boton no hace ni mares">
+
+        <button type="button">
+            <img src="img/tabien.png" alt="tabien" width="20" style="20" style="vertical-align: middle;">
+            Este boton tampoco hace ni mares
+        </button>
+    </form>
+
+    <form>
+        <label>Ingresa tu nombre</label>
+        <p></p>
+        <input type="text" name="nombre">
+        <input type="submit" name="enviar" value="Enviar informacion">
+    </form>
+    <form>
+        <label>Ingresa tu nombre: </label>
+        <input type="text" name="nombre">
+        <button type="submit">
+            <img src="img/tabien.jpg" alt="enviar" width="30" height="30">
+        </button>
+        <p></p>
+    </form>
+
+    <form>
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribir nombre"><br>
+        <input type="radio" name="genero" value="masculino" checked="">masculino<br>
+        <input type="radio" name="genero" value="femenino" checked="">femenino<br><br>
+        <input type="checkbox" name="aceptacion">Acepto termino<br><br>
+        <input type="reset" name="reiniciar" value="Reiniciar Formulario">
+        <input type="submit" name="enviar" value="Enviar mensaje">
+        <p></p>
+    </form>
+    <form>
+        <label>Grado de instruccion:</label>
+        <select name="grado">
+            <option>Primaria</option>
+            <option>Secundaria</option>
+            <option>Superior</option>
+            <p></p>
+        </select>
+    </form>
+    <form>
+        <label>Redes sociales que utilizas:</label>
+        <p></p>
+        <select multiple="" name="redes []" size="3"
+            <option>Primaria</option>
+            <option value="facbook">Facebook</option>
+            <option value="facbook">twitter</option>
+            <option value="facbook">Instagram</option>
+            <option value="facbook">Snapchat</option>
+            <option value="facbook">Spotify</option>
+            <option value="facbook">Tik tok</option>
+            <p></p>
+        </select>
+    </form>
+    <form>
+        <label>Deja un mensaje</label>
+        <p></p>
+        <textarea name="msj"></textarea>
+        <p></p>
+    </form>
+
+    <form>
+        Agrupacion de controles:
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <label>Nombre: </label>
+            <input type="text" name="nombre"><br>
+            <label>Direccion: </label>
+            <input type="text" name="direccion"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <input type="checkbox"name="arte">Arte<br>
+            <input type="checkbox"name="Television">Television<br>
+            <input type="checkbox"name="Videojuegos">Video Juegos<br>
+            <input type="checkbox"name="Deporte">Deporte<br>
+        </fieldset>
+        <br>
+        <input type="submit"name="enviar" value="Enviar">
+    </form>
+
+
+
+
+</html>
